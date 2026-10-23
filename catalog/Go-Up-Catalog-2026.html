@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>الكتالوج الرسمي لشركة Go Up للأثاث المكتبي 2026</title>
+  <link rel="icon" type="image/svg+xml" href="../images/logo.svg">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700;800;900&family=Montserrat:wght@700;800;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  <style>
+    :root {
+      --primary: #FF5722;
+      --secondary: #2D3238;
+      --bg: #F8F9FA;
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: 'Cairo', sans-serif;
+      background-color: #E2E8F0;
+      color: var(--secondary);
+      line-height: 1.6;
+      padding: 20px;
+    }
+    .print-bar {
+      max-width: 1000px;
+      margin: 0 auto 20px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      background: #FFF;
+      padding: 14px 24px;
+      border-radius: 12px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+    }
+    .btn-print {
+      background: var(--primary);
+      color: #FFF;
+      border: none;
+      padding: 10px 22px;
+      border-radius: 8px;
+      font-weight: 800;
+      cursor: pointer;
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      text-decoration: none;
+    }
+    .btn-back {
+      background: var(--secondary);
+      color: #FFF;
+      border: none;
+      padding: 10px 18px;
+      border-radius: 8px;
+      font-weight: 700;
+      text-decoration: none;
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+    }
+    .catalog-sheet {
+      max-width: 1000px;
+      margin: 0 auto 30px;
+      background: #FFF;
+      padding: 50px;
+      border-radius: 16px;
+      box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+    }
+    .catalog-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      border-bottom: 3px solid var(--primary);
+      padding-bottom: 24px;
+      margin-bottom: 30px;
+    }
+    .brand-logo-wrap {
+      display: inline-flex;
+      align-items: center;
+      gap: 14px;
+      direction: ltr !important;
+      text-align: left;
+    }
+    .brand-title {
+      font-size: 2.2rem;
+      font-weight: 900;
+      line-height: 1;
+      direction: ltr !important;
+      display: inline-flex !important;
+      align-items: baseline;
+      gap: 3px;
+    }
+    .brand-slogan {
+      color: #718096;
+      font-size: 0.75rem;
+      font-weight: 800;
+      letter-spacing: 1.5px;
+      margin-top: 4px;
+      direction: ltr !important;
+      text-align: left;
+    }
+    .catalog-meta {
+      text-align: left;
+      font-size: 0.9rem;
+      color: #4A5568;
+    }
+    .cover-hero {
+      background: linear-gradient(135deg, var(--secondary) 0%, #1A1D20 100%);
+      color: #FFF;
+      border-radius: 14px;
+      padding: 40px;
+      margin-bottom: 40px;
+      position: relative;
+    }
+    .cover-hero h1 {
+      font-size: 2.2rem;
+      font-weight: 900;
+      margin-bottom: 12px;
+    }
+    .cover-hero h1 span {
+      color: var(--primary);
+    }
+    .cover-hero p {
+      color: #E2E8F0;
+      font-size: 1.05rem;
+      max-width: 700px;
+    }
+    .catalog-table-wrap {
+      margin-bottom: 35px;
+    }
+    .cat-heading {
+      font-size: 1.35rem;
+      font-weight: 800;
+      color: var(--secondary);
+      border-right: 4px solid var(--primary);
+      padding-right: 12px;
+      margin-bottom: 16px;
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      font-size: 0.9rem;
+      margin-bottom: 20px;
+    }
+    th, td {
+      border: 1px solid #E2E8F0;
+      padding: 10px 14px;
+      text-align: right;
+    }
+    th {
+      background: #F8F9FA;
+      font-weight: 800;
+      color: var(--secondary);
+    }
+    .model-code {
+      font-family: monospace;
+      font-weight: 800;
+      color: var(--primary);
+    }
+    .footer-note {
+      border-top: 1px solid #E2E8F0;
+      padding-top: 20px;
+      margin-top: 30px;
+      font-size: 0.85rem;
+      color: #718096;
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      gap: 10px;
+    }
+    @media print {
+      body { background: #FFF; padding: 0; }
+      .print-bar { display: none; }
+      .catalog-sheet { box-shadow: none; padding: 20px; }
+      .cover-hero { -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+    }
+  </style>
+</head>
+<body>
+
+  <div class="print-bar">
+    <a href="../../index.html" class="btn-back">
+      <i class="fas fa-arrow-right"></i> العودة للموقع الرئيسي
+    </a>
+    <div style="font-weight: 800; color: var(--secondary);">
+      الكتالوج الرسمي الكامل 2026 - شركة Go Up للأثاث المكتبي
+    </div>
+    <button class="btn-print" onclick="window.print()">
+      <i class="fas fa-print"></i> طباعة / حفظ كـ PDF
+    </button>
+  </div>
+
+  <div class="catalog-sheet">
+    <div class="catalog-header">
+      <div class="brand-logo-wrap">
+        <!-- Exact Official Circular Emblem -->
+        <svg viewBox="0 0 500 500" width="70" height="70" fill="none" xmlns="http://www.w3.org/2000/svg" style="transform: scaleX(1) !important; flex-shrink: 0;">
+          <circle cx="250" cy="250" r="224" fill="#FFFFFF" />
+          <path d="M 26 250 A 224 224 0 0 1 474 250" fill="none" stroke="#FF5C00" stroke-width="17" stroke-linecap="butt" />
+          <path d="M 474 250 A 224 224 0 0 1 26 250" fill="none" stroke="#464A4F" stroke-width="17" stroke-linecap="butt" />
+          <text x="250" y="262" text-anchor="middle" font-family="'Montserrat', -apple-system, sans-serif" font-weight="900" font-size="138px" letter-spacing="-1px">
+            <tspan fill="#464A4F">Go </tspan>
+            <tspan fill="#FF5C00">Up</tspan>
+          </text>
+          <rect x="80" y="289" width="340" height="7.5" rx="3.75" fill="#FF5C00" />
+          <text x="250" y="318" text-anchor="middle" font-family="'Montserrat', -apple-system, sans-serif" font-weight="800" font-size="16px" letter-spacing="4.8px" fill="#464A4F">WE BUILD WHATEVER YOU CAN IMAGINE</text>
+        </svg>
+        <div>
+          <div class="brand-title">
+            <span style="color: var(--secondary);">Go</span>
+            <span style="color: #FF5C00;">Up</span>
+          </div>
+          <div class="brand-slogan">WE BUILD WHATEVER YOU CAN IMAGINE</div>
+        </div>
+      </div>
+      <div class="catalog-meta">
+        <div><strong>الكتالوج الرسمي للمشروعات:</strong> 2026 / 2027</div>
+        <div><strong>رقم الواتساب الرسمي:</strong> +20 111 226 9947</div>
+        <div><strong>المصنع:</strong> مؤسسة الزكاة - المنطقة الصناعية</div>
+        <div><strong>المعرض:</strong> مساكن شيراتون - هليوبوليس</div>
+      </div>
+    </div>
+
+    <div class="cover-hero">
+      <h1>شركة <span>Go Up</span> للأثاث المكتبي والمشروعات المتكاملة</h1>
+      <p>
+        يسرنا تقديم الدليل الفني الشامل لمنتجاتنا المعتمدة لعام 2026. نصنع كافة الموديلات طبقاً للمواصفات القياسية مع إمكانية التعديل والتفصيل الهندسي وفقاً لمساحة واحتياجات كل عميل، بضمان معتمد حتى 5 سنوات وخدمة معاينة ثلاثية الأبعاد 3D مجانية.
+      </p>
+    </div>
+
+    <!-- Category 1 -->
+    <div class="catalog-table-wrap">
+      <div class="cat-heading"><i class="fas fa-user-tie text-primary"></i> 1. مكاتب المديرين (Manager Desks)</div>
+      <table>
+        <thead>
+          <tr><th>كود الموديل</th><th>اسم الموديل</th><th>الأبعاد القياسية</th><th>المواصفات والخامة</th><th>فترة الضمان</th></tr>
+        </thead>
+        <tbody>
+          <tr><td class="model-code">M-O-01</td><td>مكتب مدير تنفيذي فاخر</td><td>220 × 100 × 76 سم</td><td>خشب MDF إسباني مكسو ميلامين مقاوم للخدش مع سايد جانبي</td><td>5 سنوات</td></tr>
+          <tr><td class="model-code">M-O-03</td><td>مكتب إدارة عليا عصري</td><td>200 × 90 × 75 سم</td><td>خشب معالج وإطار معدني هيدروليكي دهان إلكتروستاتيك</td><td>5 سنوات</td></tr>
+          <tr><td class="model-code">DO-01</td><td>مكتب مدير كلاسيك مودرن</td><td>180 × 85 × 76 سم</td><td>خشب قشرة أرو طبيعي مع تشطيب مط ورخام صناعي</td><td>3 سنوات</td></tr>
+          <tr><td class="model-code">DO-02</td><td>طقم مكتب مدير نيو كلاسيك</td><td>210 × 95 × 76 سم</td><td>خشب معالج مضاد للبكتيريا مع وحدة تخزين خلفية وطاولة قهوة</td><td>5 سنوات</td></tr>
+          <tr><td class="model-code">DO-034</td><td>مكتب قيادي فخم</td><td>240 × 110 × 76 سم</td><td>خشب HPL عالي الكثافة مع إنارة LED خفية</td><td>5 سنوات</td></tr>
+          <tr><td class="model-code">M-O-022</td><td>مكتب تنفيذي مينيملست</td><td>190 × 85 × 75 سم</td><td>خشب أوروبي رمادي فحمي مع شاسيه معدني أسود</td><td>3 سنوات</td></tr>
+        </tbody>
+      </table>
+    </div>
+
+    <!-- Category 2 -->
+    <div class="catalog-table-wrap">
+      <div class="cat-heading"><i class="fas fa-users text-primary"></i> 2. مكاتب الموظفين (Employee Desks)</div>
+      <table>
+        <thead>
+          <tr><th>كود الموديل</th><th>اسم الموديل</th><th>الأبعاد القياسية</th><th>المواصفات والخامة</th><th>فترة الضمان</th></tr>
+        </thead>
+        <tbody>
+          <tr><td class="model-code">DO-08</td><td>مكتب موظف فردي مدمج</td><td>120 × 60 × 75 سم</td><td>خشب MDF 25 مم مع شاسيه معدني ووحدة أدراج ثلاثية</td><td>3 سنوات</td></tr>
+          <tr><td class="model-code">DO-09</td><td>مكتب عمل موظف متطور</td><td>140 × 70 × 75 سم</td><td>ميلامين ألماني بحواف PVC 2 مم مع مجرى كابلات مدمج</td><td>3 سنوات</td></tr>
+          <tr><td class="model-code">DO-010</td><td>مكتب موظف بتصميم L-Shape</td><td>160 × 120 × 75 سم</td><td>خشب مضغوط عالي الجودة مع جانب تخزين شاشات ومستندات</td><td>3 سنوات</td></tr>
+          <tr><td class="model-code">DO-015</td><td>مكتب تشغيلي اقتصادي</td><td>120 × 70 × 75 سم</td><td>هيكل معدني قوي مع قمة خشبية مكسوة بألوان متعددة</td><td>3 سنوات</td></tr>
+          <tr><td class="model-code">DO-025</td><td>مكتب إداري متوسط</td><td>150 × 75 × 75 سم</td><td>خشب بيج فاتح مع تطعيمات رمادية وشاسيه دهان حراري</td><td>3 سنوات</td></tr>
+          <tr><td class="model-code">DO-031</td><td>مكتب عمل فردي فليكس</td><td>130 × 65 × 75 سم</td><td>خشب صديق للبيئة مع حامل شاشة وضبط ارتفاع</td><td>3 سنوات</td></tr>
+        </tbody>
+      </table>
+    </div>
+
+    <!-- Category 3 -->
+    <div class="catalog-table-wrap">
+      <div class="cat-heading"><i class="fas fa-handshake text-primary"></i> 3. طاولات الاجتماعات (Meeting Tables)</div>
+      <table>
+        <thead>
+          <tr><th>كود الموديل</th><th>السعة</th><th>الأبعاد القياسية</th><th>المواصفات والخامة</th><th>فترة الضمان</th></tr>
+        </thead>
+        <tbody>
+          <tr><td class="model-code">M-T-010</td><td>12 - 14 فرداً</td><td>360 × 120 × 76 سم</td><td>خشب HPL فاخر مع صناديق كهرباء Pop-Up ومخارج HDMI</td><td>5 سنوات</td></tr>
+          <tr><td class="model-code">M-T-011</td><td>4 - 5 أفراد</td><td>قطر 120 × 75 سم</td><td>قرصة خشبية ناعمة مع قاعدة معدنية مركزية ثابتة</td><td>3 سنوات</td></tr>
+          <tr><td class="model-code">M-T-014</td><td>8 - 10 أفراد</td><td>240 × 110 × 76 سم</td><td>خشب MDF سمك 36 مم مع أرجل معدنية مائلة حديثة</td><td>5 سنوات</td></tr>
+          <tr><td class="model-code">M-T-020</td><td>10 أفراد</td><td>280 × 120 × 76 سم</td><td>تشطيب خشب الجوز الأمريكي مع شريط جانبي مضاد للصدمات</td><td>5 سنوات</td></tr>
+          <tr><td class="model-code">M-T-026</td><td>16 - 20 فرداً</td><td>480 × 140 × 76 سم</td><td>خشب مقوى ثلاثي الطبقات مع قطاعات ألومنيوم داخلية</td><td>5 سنوات</td></tr>
+        </tbody>
+      </table>
+    </div>
+
+    <!-- Category 4 -->
+    <div class="catalog-table-wrap">
+      <div class="cat-heading"><i class="fas fa-network-wired text-primary"></i> 4. محطات العمل (Workstations)</div>
+      <table>
+        <thead>
+          <tr><th>كود الموديل</th><th>النوع</th><th>الأبعاد</th><th>المواصفات والخامة</th><th>فترة الضمان</th></tr>
+        </thead>
+        <tbody>
+          <tr><td class="model-code">W-S-01</td><td>ثنائية (متقابلين)</td><td>240 × 120 × 75 سم</td><td>خشب ميلامين مع قواطع قماشية عازلة للصوت ودواليب</td><td>3 سنوات</td></tr>
+          <tr><td class="model-code">W-S-04</td><td>رباعية مدمجة</td><td>280 × 140 × 75 سم</td><td>شاسيه حديد فرن حراري مع فواصل أكريليك وخشب ناصع</td><td>3 سنوات</td></tr>
+          <tr><td class="model-code">W-S-08</td><td>سداسية هوني كومب</td><td>قطر 320 سم</td><td>هيكل معدني ثلاثي الأبعاد مع أسطح مقطوعة CNC</td><td>5 سنوات</td></tr>
+          <tr><td class="model-code">W-S-014</td><td>خطية متصلة</td><td>480 × 60 × 75 سم</td><td>4 موظفين في صف واحد مع أرجل مشتركة وتمديدات أسلاك</td><td>3 سنوات</td></tr>
+          <tr><td class="model-code">W-S-028</td><td>قواطع زجاجية وسداسي</td><td>280 × 280 × 110 سم</td><td>قواطع ألومنيوم مع زجاج مصنفر وفينيل مانع للرؤية</td><td>5 سنوات</td></tr>
+        </tbody>
+      </table>
+    </div>
+
+    <!-- Category 5 -->
+    <div class="catalog-table-wrap">
+      <div class="cat-heading"><i class="fas fa-concierge-bell text-primary"></i> 5. مكاتب الاستقبال (Reception Desks)</div>
+      <table>
+        <thead>
+          <tr><th>كود الموديل</th><th>المقاس</th><th>المواصفات والخامة</th><th>فترة الضمان</th></tr>
+        </thead>
+        <tbody>
+          <tr><td class="model-code">R-D-01</td><td>240 × 80 × 105 سم</td><td>خشب لامع High Gloss مع تطعيم رخام صناعي وإضاءة LED</td><td>5 سنوات</td></tr>
+          <tr><td class="model-code">R-D-03</td><td>220 × 90 × 110 سم</td><td>خشب مرن مقوس ومكسو بشرائح خشبية طبيعية</td><td>3 سنوات</td></tr>
+          <tr><td class="model-code">R-D-06</td><td>160 × 70 × 105 سم</td><td>خشب أبيض مقاوم للبكتيريا مع سطح كورين سهل التعقيم</td><td>3 سنوات</td></tr>
+          <tr><td class="model-code">R-D-010</td><td>300 × 85 × 110 سم</td><td>كتل خشبية ومعدنية بارزة 3D مع مكان مخصص للشعار المضيء</td><td>5 سنوات</td></tr>
+          <tr><td class="model-code">R-D-013</td><td>200 × 150 × 105 سم</td><td>كونتر زاوية L-Shape خشب أنثراسيت مع أدراج سرية</td><td>3 سنوات</td></tr>
+        </tbody>
+      </table>
+    </div>
+
+    <!-- Category 6, 7, 8, 9, 10, 11, 12, 13 Summary -->
+    <div class="catalog-table-wrap">
+      <div class="cat-heading"><i class="fas fa-layer-group text-primary"></i> 6 - 13. ملخص الأقسام والتصنيفات الأخرى</div>
+      <table>
+        <thead>
+          <tr><th>القسم الرئيسي</th><th>أكواد الموديلات المعتمدة</th><th>الاستخدام الموصى به</th></tr>
+        </thead>
+        <tbody>
+          <tr><td>المعامل والخزائن (Labs & Cabinets)</td><td class="model-code">CAB-1-8, CAB-015, CAB-03H, CAB-21H, LAB-0335, LAB-0337</td><td>حفظ الملفات، المعامل الكيميائية والجامعية، أرشفة المديرين</td></tr>
+          <tr><td>الأثاث المعدني وخزائن الحفظ (Metal & Lockers)</td><td class="model-code">LOCKER-1-3L, SHA-1-3, RAC-01L, CAB-2H, LIB08</td><td>المصانع، المخازن، الأرشيف الورقي، خزائن أمان الموظفين</td></tr>
+          <tr><td>كراسي المكتب (Chairs)</td><td class="model-code">CH-9001H, GO-104M, GO-105H, GO-201, GO-400H, ROC.120 H</td><td>مكاتب المديرين، الموظفين، مهندسو البرمجيات والتصميم</td></tr>
+          <tr><td>كراسي الانتظار والقاعات (Waiting Chairs)</td><td class="model-code">W-CH-03S, W-CH-02R, W-CH-010, W-CH-020</td><td>المستشفيات، العيادات، قاعات التدريب، صالات خدمة العملاء</td></tr>
+          <tr><td>الكنب والصالونات (Sofas)</td><td class="model-code">GO-202, GO-201C, أطقم جلدية وكابيتونيه فاخر</td><td>صالات كبار الزوار VIP، مكاتب الوزراء ورؤساء مجالس الإدارة</td></tr>
+          <tr><td>كراسي المدرجات والمسارح (Auditorium)</td><td class="model-code">BJ110, BJ111, BJ112, BJ108, BJ140</td><td>المسارح، دور العرض السينمائي، مدرجات الجامعات والمعاهد</td></tr>
+          <tr><td>الفواصل وتجليد الحوائط (Partition & Cladding)</td><td class="model-code">cladd-0900, cladd-0903, PT-09A, PT-010G</td><td>عزل الصوت، تجليد الجدران الديكوري، القواطع الزجاجية والمتحركة</td></tr>
+          <tr><td>الأبواب الخشبية (Doors)</td><td class="model-code">D-01, D-02, D-013, D-06, D-08</td><td>أبواب كتم صوت، أبواب مقاومة للحريق، أبواب مكاتب مودرن زجاجية</td></tr>
+        </tbody>
+      </table>
+    </div>
+
+    <!-- Client list & Contact -->
+    <div style="background: #F8F9FA; padding: 20px; border-radius: 12px; margin-top: 30px;">
+      <h3 style="font-size: 1.1rem; color: var(--secondary); margin-bottom: 8px;">عملاؤنا البارزون وسوابق الأعمال:</h3>
+      <p style="color: #4A5568; font-size: 0.9rem;">
+        نفخر بثقة نخبة المؤسسات والشركات في مصر والشرق الأوسط: <strong>Fresh</strong> (فريش) - <strong>OPPO</strong> (أوبو) - <strong>B.Tech</strong> (بي تك) - <strong>Dabur</strong> (دابر) - <strong>GAD</strong> (سلسلة جاد) - <strong>أكاديمية 6 أكتوبر</strong> ومئات المشروعات الكبرى.
+      </p>
+    </div>
+
+    <div class="footer-note">
+      <div><strong>Go Up للأثاث المكتبي:</strong> جميع الحقوق محفوظة © 2026</div>
+      <div>لطلب عرض سعر أو حجز موعد مهندس: <strong>01112269947 (WhatsApp)</strong></div>
+      <div>المصنع: مؤسسة الزكاة | المعرض: مساكن شيراتون هليوبوليس</div>
+    </div>
+  </div>
+
+</body>
+</html>
