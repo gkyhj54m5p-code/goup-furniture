@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500" width="100%" height="100%">
+  <defs>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@800;900&amp;display=swap');
+      .brand-text-main {
+        font-family: 'Montserrat', 'Poppins', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+        font-weight: 900;
+        font-size: 136px;
+        letter-spacing: -1px;
+      }
+      .brand-slogan-text {
+        font-family: 'Montserrat', 'Poppins', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+        font-weight: 800;
+        font-size: 16px;
+        letter-spacing: 4.8px;
+        fill: #2D3238;
+      }
+    </style>
+  </defs>
+
+  <!-- Circular Base (Pure White) -->
+  <circle cx="250" cy="250" r="224" fill="#FFFFFF" />
+
+  <!-- Upper Semicircular Arc (Official Warm Orange) -->
+  <path d="M 26 250 A 224 224 0 0 1 474 250" fill="none" stroke="#FF5722" stroke-width="16" stroke-linecap="butt" />
+
+  <!-- Lower Semicircular Arc (Official Dark Charcoal) -->
+  <path d="M 474 250 A 224 224 0 0 1 26 250" fill="none" stroke="#2D3238" stroke-width="16" stroke-linecap="butt" />
+
+  <!-- Central "Go Up" Brandmark (Centered) -->
+  <text x="250" y="262" text-anchor="middle" class="brand-text-main">
+    <tspan fill="#FF5722">Go </tspan>
+    <tspan fill="#2D3238">Up</tspan>
+  </text>
+
+  <!-- Horizontal Orange Divider Bar -->
+  <rect x="80" y="289" width="340" height="7.5" rx="3.75" fill="#FF5722" />
+
+  <!-- Official Company Slogan -->
+  <text x="250" y="318" text-anchor="middle" class="brand-slogan-text">WE BUILD WHATEVER YOU CAN IMAGINE</text>
+</svg>
